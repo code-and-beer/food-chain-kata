@@ -1,33 +1,63 @@
-# codeAndBeerBowlingKata
-TDD Bowling Kata for Code and Beer Events
+# codeAndBeerFoodChainKata
+TDD Food Chain Kata for Code and Beer Events
 
+## The song
 
-## Scoring ten-pin bowling
-_adapted from [Uncle Bob's formulation](http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)_
+I know an old lady who swallowed a fly.  
+I don't know why she swallowed the fly. Perhaps she'll die.
 
-![Example scoresheet](https://www.wpclipart.com/recreation/sports/bowling/bowling_scoresheet_example.png)
+I know an old lady who swallowed a spider.  
+It wriggled and jiggled and tickled inside her.  
+She swallowed the spider to catch the fly.  
+I don't know why she swallowed the fly. Perhaps she'll die.
 
-The game consists of 10 frames as shown above.
-In each frame the player has two chances to roll the ball to knock down 10 pins.
-The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
+I know an old lady who swallowed a bird.  
+How absurd to swallow a bird!  
+She swallowed the bird to catch the spider that wriggled and jiggled and tickled inside her.  
+She swallowed the spider to catch the fly.  
+I don't know why she swallowed the fly. Perhaps she'll die.
 
-A spare (/) is when the player knocks down all 10 pins in two rolls.
-The bonus for that frame is the number of pins knocked down by the next roll.
-So in frame 2 above, the score is 10 (the total number knocked down) plus a bonus of 5 (the number of pins knocked down on the next roll) for a total of 15.
+I know an old lady who swallowed a cat.  
+Imagine that, to swallow a cat!  
+She swallowed the cat to catch the bird.  
+She swallowed the bird to catch the spider that wriggled and jiggled and tickled inside her.  
+She swallowed the spider to catch the fly.  
+I don't know why she swallowed the fly. Perhaps she'll die.
 
-A strike (X) is when the player knocks down all 10 pins on their first roll.
-The bonus for that frame is the number of pins knocked down by the next two rolls.
-So in frame 1 above, the score is 10 (the number knocked down) plus bonuses of 9 and 1 (the number of pins knocked down on the two next rolls) for a total of 20. 
+I know an old lady who swallowed a dog.  
+What a hog, to swallow a dog!  
+She swallowed the dog to catch the cat.  
+She swallowed the cat to catch the bird.  
+She swallowed the bird to catch the spider that wriggled and jiggled and tickled inside her.  
+She swallowed the spider to catch the fly.  
+I don't know why she swallowed the fly. Perhaps she'll die.
 
-In the tenth frame, a player who rolls a spare or strike is allowed to roll the extra balls needed to complete the frame.
-No more than three balls can be rolled in the tenth frame.
+I know an old lady who swallowed a goat.  
+Just opened her throat and swallowed a goat!  
+She swallowed the goat to catch the dog.  
+She swallowed the dog to catch the cat.  
+She swallowed the cat to catch the bird.  
+She swallowed the bird to catch the spider that wriggled and jiggled and tickled inside her.  
+She swallowed the spider to catch the fly.  
+I don't know why she swallowed the fly. Perhaps she'll die.
+
+I know an old lady who swallowed a cow.  
+I don't know how she swallowed a cow!  
+She swallowed the cow to catch the goat.  
+She swallowed the goat to catch the dog.  
+She swallowed the dog to catch the cat.  
+She swallowed the cat to catch the bird.  
+She swallowed the bird to catch the spider that wriggled and jiggled and tickled inside her.  
+She swallowed the spider to catch the fly.  
+I don't know why she swallowed the fly. Perhaps she'll die.
+
+I know an old lady who swallowed a horse.  
+She's dead, of course!
 
 
 ## The task
 
-Write a `TenPinBowlingGame` class with two methods:
-* `roll` is called each time the player rolls a ball; it takes the integer number of pins knocked down, and returns nothing.
-* `score` is called at the end of the game and returns the total score.
+Generate the song (algorithmically).
 
 
 ## Remember Uncle Bob's [three rules](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd)!
