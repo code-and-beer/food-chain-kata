@@ -1,5 +1,5 @@
-# codeAndBeerFoodChainKata
-TDD Food Chain Kata for Code and Beer Events
+# food-chain-kata
+TDD "food chain" kata
 
 ## The song
 
