@@ -1,20 +1,20 @@
 {
-  "name": "bowling",
+  "name": "food-chain",
   "version": "1.0.0",
-  "description": "Code-and-beer ten-pin bowling kata",
+  "description": "Code-and-beer food chain kata",
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NicolePell/codeAndBeerBowlingKata.git"
+    "url": "git+https://github.com/code-and-beer/food-chain-kata.git"
   },
   "author": "Andrew Haines",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NicolePell/codeAndBeerBowlingKata/issues"
+    "url": "https://github.com/code-and-beer/food-chain-kata/issues"
   },
-  "homepage": "https://github.com/NicolePell/codeAndBeerBowlingKata#readme",
+  "homepage": "https://github.com/code-and-beer/food-chain-kata#readme",
   "private": true,
   "devDependencies": {
     "mocha": "^2.4.5"

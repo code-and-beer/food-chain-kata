@@ -10,5 +10,5 @@ $ bundle install
 
 ## Running tests
 ```console
-$ bundle exec ruby test/ten_pin_bowling_game_test.rb
+$ bundle exec ruby test/food_chain_test.rb
 ```
